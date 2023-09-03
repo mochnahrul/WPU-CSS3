@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3 - Border Radius</title>
+    <style>
+      .kotak {
+        display: inline-block;
+        margin: 20px;
+      }
+
+      /* Shorthand */
+      /* border-radius: 0 50% 0 50%; */
+
+      .kotak1 {
+        width: 200px;
+        height: 200px;
+        background-color: salmon;
+        border-radius: 50%;
+      }
+
+      .kotak2 {
+        width: 200px;
+        height: 200px;
+        background-color: salmon;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+      }
+
+      .kotak3 {
+        width: 200px;
+        height: 200px;
+        background-color: salmon;
+        background-image: url(hutao.png);
+        background-size: cover;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak kotak1"></div>
+    <div class="kotak kotak2"></div>
+    <div class="kotak kotak3"></div>
+  </body>
+</html>

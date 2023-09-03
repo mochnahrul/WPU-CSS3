@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3 - Radial Gradient</title>
+    <style>
+      /* background-image: radial-gradient(<warna-awal>, <warna-akhir>); */
+      /* background-image: radial-gradient(<tipe> <jangkauan> at <posisi-y> <posisi-x>, <warna-awal>, <warna-akhir>); */
+
+      /* Tipe: ellipse | circle */
+
+      /* Jangkauan: closest-corner | closest-side | farthest-corner | farthest-side */
+      /* closest-corner: Jarak dari pusat gradient ke sudut terdekat elemen. */
+      /* closest-side: Jarak dari pusat gradient ke sisi terdekat elemen. */
+      /* farthest-corner: Jarak dari pusat gradient ke sudut terjauh elemen. */
+      /* farthest-side: Jarak dari pusat gradient ke sisi terjauh elemen. */
+
+      /* posisi-y: top | center |bottom */
+      /* posisi-x: left | center |right */
+
+      .kotak {
+        width: 600px;
+        height: 300px;
+        margin: 50px auto;
+        /* background-image: radial-gradient(lightgreen, lightblue); */
+        background-image: radial-gradient(circle farthest-side at top left, lightgreen, lightblue);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak"></div>
+  </body>
+</html>

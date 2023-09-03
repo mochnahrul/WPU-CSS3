@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3 - Filter</title>
+    <style>
+      /* filter: <tipe-filter>; */
+      /* blur(px) */
+      /* brightness(angka | %) */
+      /* contrast(angka | %) */
+      /* saturate(angka | %) */
+      /* grayscale(angka | %) */
+      /* sepia(angka | %) */
+      /* hue-rotate(deg) */
+      /* invert(angka | %) */
+      /* opacity(angka | %) */
+      /* drop-shadow(sama seperti box-shadow) */
+
+      body {
+        text-align: center;
+      }
+
+      img {
+        width: 500px;
+        height: 500px;
+        background-size: cover;
+        filter: drop-shadow(5px 5px 5px rgba(250, 128, 114, 0.5)) drop-shadow(-5px -5px 5px rgba(0, 0, 0, 0.5));
+      }
+    </style>
+  </head>
+  <body>
+    <img src="hutao.png" alt="hutao.png" />
+  </body>
+</html>

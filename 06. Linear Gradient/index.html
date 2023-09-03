@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3 - Linear Gradient</title>
+    <style>
+      /* background-image: linear-gradient(<warna awal>, <warna akhir>); */
+      /* background-image: linear-gradient(<sudut> | <arah>, <warna awal>, <warna akhir>); */
+
+      .kotak {
+        width: 600px;
+        height: 300px;
+        margin: 50px auto;
+        background-image: linear-gradient(lightblue, lightgreen);
+        /* background-image: linear-gradient(90deg, lightblue, lightgreen); */
+        /* background-image: linear-gradient(to top, lightblue, lightgreen); */
+
+        /* Color Stop */
+        /* background-image: linear-gradient(lightblue 50%, lightgreen 50%); */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak"></div>
+  </body>
+</html>
